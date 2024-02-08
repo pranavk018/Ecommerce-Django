@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-md-3 mt-2 bg-light">
+        <!-- sidebar  -->
+        <h6>Filter By Category</h6>
+        <p><a href="/home" class="anchor">All</a></p>
+        <p><a href="/catfilter/1" class="anchor">Mobile</a></p>
+        <p><a href="/catfilter/2" class="anchor">Footwear</a></p>
+        <p><a href="/catfilter/3" class="anchor">Clothing</a></p>        
+        <hr>
+        <h6>Filter By Price</h6>
+        <form action="/range" method="get">
+          <div class="mb-1">
+              <label class="form-label">Min:</label>
+              <input type="number" class="form-control"  placeholder="min value">
+          </div>
+          <div class="mb-1">
+              <label  class="form-label">Max:</label>
+              <input type="number" class="form-control" placeholder="max value">
+          </div>
+          <button type="submit" class="btn btn-danger">Search</button>
+      </form>
+        <hr>
+        <h6>Sort By Price</h6>
+        <a href="/sort/0" class="anchor" >Low to High</a><br>
+        <a href="/sort/1" class="anchor">High to Low</a>
+        <hr>
+    </div>
+   
